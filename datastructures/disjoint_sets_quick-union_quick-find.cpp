@@ -9,6 +9,7 @@ void makeset(int* parent, int n) {
 }
 
 //check whether both elements lie in same set
+//returns parent of c
 //node in same set end up with same root
 //O(logn)
 int find(char* elements, int* parent, int n, char c) {

@@ -1,44 +1,42 @@
-#include <iostream>
+#include<bits/stdc++.h>
 using namespace std;
 
-int match(string text, string pattern) {
-	int length_text = text.length();
-	int length_pattern = pattern.length();
-	int lps[length_pattern];
-	for (int i = 0; i < length_pattern; ++i)
-		lps[i] = -1;
-	for (int i = 1; i < length_pattern; ++i) {
-		int j = 0;
-		int k = i;
-		while (pattern[k] == pattern[j]) {
-			lps[k] = j;
-			++j;
-			++k;
-		}
-		if (k != i)
-			i = k - 1;
-	}
+int KMPSearch(string txt, string pat) {
+	int len_txt = txt.length();
+	int len_pat = pat.length();
+	//lps
+	int* lps = new int[len_pat];
+	for (int i = 0; i < len_pat; ++i)
+		lps[i] = 0;
 	int j = 0;
-	for (int i = 0; i < length_text; ++i) {
-		int k = i;
-		while (text[k] == pattern[j]) {
+	for (int i = 1; i < len_pat; ++i) {
+		if (pat[i] == pat[j]) {
+			lps[i] = j + 1;
 			++j;
-			++k;
-			if (j == length_pattern)
-				return k - length_pattern;
+		} else {
+			j = 0;
 		}
-		if (j > 0)
-			j = lps[j - 1] + 1;
-		if (k != i)
-			i = k - 1;
+	}
+	//lps
+	j = 0;
+	for (int i = 0; i < len_txt; ++i) {
+		if (txt[i] == pat[j]) {
+			++j;
+			if (j == len_pat)
+				return i - len_pat + 1;
+		} else {
+			if (j > 0) {
+				j = lps[j - 1];
+				--i;
+			}
+		}
 	}
 	return -1;
 }
 
 int main() {
-	string text = "ABABDABACDABABCABAB";
-	string pattern = "ABABCABAB";
-	int index = match(text, pattern);
-	cout << index << endl;
+	string txt = "AAABAAABAACABABCABAB";
+	string pat = "AAABAAC";
+	cout << KMPSearch(txt, pat);
 	return 0;
 }
