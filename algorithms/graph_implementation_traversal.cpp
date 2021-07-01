@@ -71,12 +71,13 @@ void Graph::BFS(int s) {
     }
     queue<int> q;
     q.push(s);
+    b[s] = true;
     while (!q.empty()) {
         cout << q.front() << " ";
-        b[q.front()] = true;
         for (auto it = array[q.front()].begin(); it != array[q.front()].end();
              ++it) {
             if (!b[(*it).getVertex()]) {
+                b[(*it).getVertex()] = true;
                 q.push((*it).getVertex());
             }
         }
@@ -113,12 +114,12 @@ int main() {
 
     cout << "Following is Breadth First Traversal "
          << "(starting from vertex 2) \n";
-    g.BFS(2);
+    g.BFS(0);
     cout << endl;
 
     cout << "Following is Depth First Traversal"
             " (starting from vertex 2) \n";
-    g.DFS(2);
+    g.DFS(0);
     cout << endl;
 
     return 0;
