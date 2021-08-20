@@ -8,8 +8,9 @@ using namespace std;
 
     Optimal :
     Merge type
-    O(nlogn) + O(n) + O(nlogn) time
-    O(n) space
+    O(nlogn) + O(nlogn) time (merge + finding number) 
+    (if we use merge sort, in sol we used quick sort inside merge sort to get soln accepted)
+    O(n) space (O(1) in soln)
 */
 
 int findPairs(vector<int> &nums, int low, int high)
