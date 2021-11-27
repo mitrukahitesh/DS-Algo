@@ -1,0 +1,3 @@
+Dutch National Flag Algorithm 1, 1
+Tortoise and Hare
+Boyer-Moore Voting Algorithm 3,3
