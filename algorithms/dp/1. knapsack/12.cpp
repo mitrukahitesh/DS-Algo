@@ -49,7 +49,7 @@ int minCoins(int coins[], int m, int v)
                 dp[i][j] = dp[i - 1][j];
             }
             else
-            {ss
+            {
                 dp[i][j] = min(1 + dp[i][j - coins[i - 1]], dp[i - 1][j]);
             }
         }
