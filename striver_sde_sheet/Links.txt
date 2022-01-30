@@ -1,0 +1,19 @@
+## Day 12
+https://leetcode.com/problems/binary-tree-maximum-path-sum/
+https://www.codingninjas.com/codestudio/problems/implement-trie_1387095?utm_source=youtube&utm_medium=affiliate&utm_campaign=striver_tries_videos
+https://www.codingninjas.com/codestudio/problems/complete-string_2687860?utm_source=youtube&utm_medium=affiliate&utm_campaign=striver_tries_videos
+https://www.codingninjas.com/codestudio/problems/count-distinct-substrings_985292?utm_source=youtube&utm_medium=affiliate&utm_campaign=striver_tries_videos
+https://practice.geeksforgeeks.org/problems/power-set4302/1#
+https://practice.geeksforgeeks.org/problems/power-set4302/1#
+https://leetcode.com/problems/maximum-xor-with-an-element-from-array/
+
+## Day 19
+https://leetcode.com/problems/binary-tree-maximum-path-sum/
+https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
+https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/
+https://leetcode.com/problems/symmetric-tree/
+https://leetcode.com/problems/flatten-binary-tree-to-linked-list/
+https://practice.geeksforgeeks.org/problems/mirror-tree/1
+https://bit.ly/33yExIQ
+
+## Day 20
