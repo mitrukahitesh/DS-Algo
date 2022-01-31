@@ -34,3 +34,11 @@ https://leetcode.com/problems/two-sum-iv-input-is-a-bst/
 https://leetcode.com/problems/two-sum-iv-input-is-a-bst/
 https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/
 https://leetcode.com/problems/serialize-and-deserialize-binary-tree/
+
+## Day 22
+https://www.codingninjas.com/codestudio/problems/893106?topList=striver-sde-sheet-problems&utm_source=striver&utm_medium=website
+https://leetcode.com/problems/find-median-from-data-stream/
+https://leetcode.com/problems/kth-largest-element-in-a-stream/
+https://practice.geeksforgeeks.org/problems/count-distinct-elements-in-every-window/1/
+https://leetcode.com/problems/kth-largest-element-in-an-array/
+https://leetcode.com/problems/flood-fill/
