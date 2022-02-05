@@ -54,3 +54,12 @@ https://leetcode.com/problems/course-schedule/
 https://leetcode.com/problems/number-of-islands/
 https://leetcode.com/problems/is-graph-bipartite/
 https://leetcode.com/problems/is-graph-bipartite/
+
+# Day 24
+https://www.codingninjas.com/codestudio/problems/985311?topList=striver-sde-sheet-problems&utm_source=striver&utm_medium=website
+https://leetcode.com/problems/maximum-number-of-non-overlapping-substrings/discuss/766485/kosaraju-algorithm-on
+https://practice.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1
+https://practice.geeksforgeeks.org/problems/distance-from-the-source-bellman-ford-algorithm/0/?fbclid=IwAR2_lL0T84DnciLyzMTQuVTMBOi82nTWNLuXjUgahnrtBgkphKiYk6xcyJU
+https://practice.geeksforgeeks.org/problems/implementing-floyd-warshall2042/1
+https://practice.geeksforgeeks.org/problems/minimum-spanning-tree/1
+https://practice.geeksforgeeks.org/problems/minimum-spanning-tree/1
